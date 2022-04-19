@@ -127,6 +127,7 @@ namespace ProductShop
                     count = allCount + " из " + allCount;
                     tb_count.Text = count;
                 }
+
             }
 
             prod.ItemsSource = filterProd;
