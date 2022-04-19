@@ -39,8 +39,8 @@
 
         <CheckBox x:Name="cb_save" IsChecked="True" Content="Запомнить данные?" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         
-        <Button x:Name="btn_reg" Content="Зарегистрироваться" Grid.Column="1" Grid.Row="5" Click="btn_reg_Click" Margin="10"/>
-        <Button x:Name="btn_authorization" Content="Войти" Grid.Column="2" Grid.Row="5" Click="btn_authorization_Click" Margin="10"/>
+        <Button x:Name="btn_reg" Content="Зарегистрироваться" Grid.Column="1" Grid.Row="5" Click="btn_reg_Click" Margin="25,10,24,21"/>
+        <Button x:Name="btn_authorization" Content="Войти" Grid.Column="2" Grid.Row="5" Click="btn_authorization_Click" Margin="27,10,28,21"/>
 
     </Grid>
 </Page>

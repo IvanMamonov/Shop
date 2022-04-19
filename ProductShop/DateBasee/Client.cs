@@ -18,7 +18,6 @@ namespace ProductShop.DateBasee
         public Client()
         {
             this.Order = new HashSet<Order>();
-            this.Order1 = new HashSet<Order>();
         }
     
         public int Id { get; set; }
@@ -29,11 +28,9 @@ namespace ProductShop.DateBasee
         public System.DateTime AddDate { get; set; }
         public int UserId { get; set; }
     
-        public virtual Gender Gender { get; set; }
+        public virtual d Gender { get; set; }
         public virtual User User { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Order> Order { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Order> Order1 { get; set; }
     }
 }

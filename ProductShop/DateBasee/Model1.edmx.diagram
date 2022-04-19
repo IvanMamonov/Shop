@@ -4,42 +4,39 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="62ca9132c44149f4b1c77fcf8791c770" Name="Diagram1">
-        <EntityTypeShape EntityType="ShopZilya320Model.Client" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.Country" Width="1.5" PointX="7.5" PointY="16.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.Gender" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.Order" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.Product" Width="1.5" PointX="7.5" PointY="12" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.ProductCountry" Width="1.5" PointX="9.75" PointY="12.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.ProductIntake" Width="1.5" PointX="12" PointY="9.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.ProductIntakeProduct" Width="1.5" PointX="14.25" PointY="10.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.ProductOrder" Width="1.5" PointX="9.75" PointY="5.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.Role" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.StatusIntake" Width="1.5" PointX="12" PointY="12.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.StatusOrder" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.Supplier" Width="1.5" PointX="9.75" PointY="9.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.Unit" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.User" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ShopZilya320Model.Worker" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
-        <AssociationConnector Association="ShopZilya320Model.FK_Client_Gender" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_Client_User1" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_Order_Client" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_Order_Client1" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductCountry_Country" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_Order_StatusOrder" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_Order_Worker" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductOrder_Order" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_Product_Unit" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductCountry_Product" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductIntakeProduct_Product" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductOrder_Product" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductIntake_Supplier" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductIntakeProduct_ProductIntake" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductIntakeProduct_StatusIntake" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_User_Role" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_Worker_User" ManuallyRouted="false" />
-        <AssociationConnector Association="ShopZilya320Model.FK_ProductIntake_StatusIntake" />
+      <Diagram DiagramId="716c7efaa5a7410d97ae38cd9a3a1a34" Name="Diagram1">
+        <EntityTypeShape EntityType="ShopOModel.Client" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.Country" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.d" Width="1.5" PointX="1.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.Order" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.Product" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.ProductCountry" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.ProductIntake" Width="1.5" PointX="6" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.ProductIntakeProduct" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.ProductOrder" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.Role" Width="1.5" PointX="1.5" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.StatusIntake" Width="1.5" PointX="6" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.StatusOrder" Width="1.5" PointX="0.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.Supplier" Width="1.5" PointX="3.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.Unit" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.User" Width="1.5" PointX="1.5" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopOModel.Worker" Width="1.5" PointX="0.75" PointY="23.75" IsExpanded="true" />
+        <AssociationConnector Association="ShopOModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_Client_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_Order_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_ProductCountry_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_Order_StatusOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_Order_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_ProductOrder_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_Product_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_ProductCountry_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_ProductIntakeProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_ProductOrder_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_ProductIntake_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_ProductIntakeProduct_ProductIntake" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_ProductIntakeProduct_StatusIntake" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopOModel.FK_Worker_User" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

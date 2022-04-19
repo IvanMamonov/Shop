@@ -12,10 +12,10 @@ namespace ProductShop.DateBasee
     using System;
     using System.Collections.Generic;
     
-    public partial class Gender
+    public partial class d
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Gender()
+        public d()
         {
             this.Client = new HashSet<Client>();
         }
