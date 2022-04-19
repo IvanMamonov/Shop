@@ -27,7 +27,7 @@
             <RowDefinition Height="0.5*"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="btn_back" Content="Назад" Grid.Column="0" Grid.Row="0" Height="30" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btn_back_Click"/>
+        <Button x:Name="btn_back" Content="Назад" Grid.Column="0" Grid.Row="0" Height="30" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btn_back_Click" Foreground="Black"/>
 
         <ListView x:Name="lv_postup" ItemsSource="{Binding intakes}" Grid.Row="1" Grid.RowSpan="7" Grid.Column="0" Grid.ColumnSpan="4" SelectionChanged="lv_postup_SelectionChanged">
             <ListView.View>

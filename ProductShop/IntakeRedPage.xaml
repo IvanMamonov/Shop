@@ -27,8 +27,8 @@
             <RowDefinition Height="0.5*"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="btn_back" Content="Назад" Grid.Column="0" Grid.Row="0" Height="40" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btn_back_Click"/>
-        <Button x:Name="btn_save" Content="Сохранить" Grid.Column="3" Grid.Row="0" Height="40" Width="100" HorizontalAlignment="Right" VerticalAlignment="Top" Click="btn_add_Click"/>
+        <Button x:Name="btn_back" Content="Назад" Grid.Column="0" Grid.Row="0" Height="40" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btn_back_Click" Foreground="Black"/>
+        <Button x:Name="btn_save" Content="Сохранить" Grid.Column="3" Grid.Row="0" Height="40" Width="100" HorizontalAlignment="Right" VerticalAlignment="Top" Click="btn_add_Click" Foreground="Black"/>
 
         <TextBlock Text="Поставщик: " Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="Black" FontSize="20"/>
         <ComboBox Name="cb_supplier" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Width="200"/>
